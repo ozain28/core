@@ -1,0 +1,9 @@
+<?php
+$password = "Pass123";
+
+if(strlen($password) < 6){
+    echo "Weak Password";
+} else {
+    echo "Strong Password";
+}
+?>
