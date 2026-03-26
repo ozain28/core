@@ -1,0 +1,9 @@
+<?php
+$number = "12345";
+
+if(is_numeric($number)){
+    echo "Valid Number";
+} else {
+    echo "Invalid Number";
+}
+?>
